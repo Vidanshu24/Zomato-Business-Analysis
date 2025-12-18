@@ -1,148 +1,147 @@
 # 🍽️ Zomato Business Performance Analysis
 
-![Power BI](https://img.shields.io/badge/Tool-Power%20BI-yellow)
-![SQL](https://img.shields.io/badge/Skill-SQL-blue)
-![Python](https://img.shields.io/badge/Skill-Python-green)
-![Status](https://img.shields.io/badge/Project-Completed-success)
+## Project Overview
+
+This project focuses on analyzing **Zomato restaurant data** to understand business performance across locations, pricing categories, cuisines, and customer engagement metrics such as ratings and votes.
+
+The main goal of this project is to help businesses and stakeholders answer questions like:
+
+- Which locations generate the highest revenue?
+- Which cuisines perform the best?
+- How do price categories impact revenue?
+- Do higher ratings always lead to higher customer engagement?
+
+The project is built end-to-end using **Python, SQL, and Power BI**, starting from raw data cleaning to a business-ready interactive dashboard.
 
 ---
 
-## 📌 Project Overview
+## What is This Analysis About?
 
-This project focuses on analyzing **Zomato restaurant data** to uncover meaningful **business insights** related to revenue, pricing categories, restaurant ratings, customer engagement, and location-wise performance.
+Zomato operates as a restaurant discovery and food delivery platform.  
+This analysis simulates a **real business analytics use case**, where restaurant-level data is analyzed to:
 
-The analysis is performed using **SQL and Python**, and the final insights are presented through an **interactive Power BI dashboard** designed for business decision-makers.
-
----
-
-## 🖼️ Dashboard Preview
-
-![Zomato Business Performance Dashboard](visuals/Zomato_Business_Performance_Dashboard.png)
-
-> Interactive Power BI dashboard highlighting revenue, ratings, cuisines, and location insights.
+- Measure overall business performance
+- Compare restaurants based on price range and ratings
+- Identify top-performing areas and cuisines
+- Understand customer behavior through votes and booking trends
 
 ---
 
-## 🎯 Business Objectives
+## Tools Used
 
-- Identify top-performing locations and cuisines
-- Understand the impact of price categories on revenue
-- Analyze relationship between ratings and customer votes
-- Evaluate online delivery and table booking trends
-- Provide a clear business-level performance summary
-
----
-
-## 🛠️ Tools & Technologies
-
-- **SQL** – Data analysis and aggregation  
 - **Python (Pandas, NumPy)** – Data cleaning and preprocessing  
-- **Power BI** – Interactive dashboard and visualization  
-- **CSV Dataset** – Cleaned structured data  
+- **SQL** – Analytical queries and aggregations  
+- **Power BI** – Dashboard creation and visualization  
+- **CSV Dataset** – Cleaned data used for analysis  
 
 ---
 
----
+## Project Workflow (Step by Step)
 
-## 🧹 Data Cleaning (Python)
+### 1️⃣ Data Cleaning (Python)
 
-Data cleaning and preparation were performed using **Python (Pandas)**:
+The raw Zomato dataset contained missing values, inconsistent formats, and unnecessary columns.  
+The following data cleaning steps were performed using Python (Pandas):
 
-- Removed duplicate records  
-- Handled missing and inconsistent values  
+- Removed duplicate restaurant records  
+- Handled missing and null values  
 - Standardized rating and price category columns  
-- Converted data types for analysis  
-- Created clean dataset for SQL & Power BI  
+- Converted data types for numerical analysis  
+- Prepared a clean dataset for SQL analysis and Power BI  
 
-📁 Output file: `Cleaned_data.csv`
-
----
-
-## 🧮 SQL Analysis
-
-SQL queries were written to answer key business questions:
-
-- Customer spending categorization (High / Medium / Low)
-- City-wise revenue and restaurant count
-- Cuisine-level performance analysis
-- Rating bucket analysis
-- Aggregated metrics for dashboard KPIs
-
-📁 SQL file: `zomato_query_analysis.sql`
+📄 **Output File:** `Cleaned_data.csv`  
+📄 **Python File:** `Zomato_cleaning_analysis.py`
 
 ---
 
-## 📊 Dashboard Highlights
+### 2️⃣ SQL Analysis
 
-The Power BI dashboard includes:
+After cleaning the data, SQL was used to perform business-focused analysis such as:
 
-### 🔹 Key KPIs
-- Estimated Revenue  
-- Total Restaurants  
-- Average Rating  
-- Total Votes  
+- Categorizing restaurants based on spending levels (High / Medium / Low)  
+- City-wise restaurant count and revenue analysis  
+- Cuisine-level performance analysis  
+- Rating bucket analysis (Excellent / Good / Average)  
+- Aggregated metrics for dashboard KPIs  
 
-### 🔹 Visual Insights
-- Revenue by Price Category  
-- Top 5 Locations by Sales  
-- Most Popular Cuisines  
-- Votes vs Rating Relationship  
-- Online Delivery Distribution  
-- Table Booking Analysis  
+📄 **SQL File:** `zomato_query_analysis.sql`
 
 ---
 
-## 🔍 Key Insights
+### 3️⃣ Power BI Dashboard
 
-- High price category contributes the highest revenue share  
-- Italian cuisine generates maximum sales  
-- BTM and Koramangala are top-performing locations  
-- Higher ratings do not always guarantee higher votes  
-- Table booking and non-booking restaurants are nearly evenly distributed  
+A Power BI dashboard was created to visualize key insights in an easy-to-understand and interactive format.
+
+The dashboard includes:
+
+- Key performance indicators (KPIs)
+- Revenue distribution across price categories
+- Top 5 locations by sales
+- Most popular cuisines
+- Relationship between ratings and votes
+- Online delivery distribution
+- Table booking analysis
+
+📄 **Dashboard File:** Power BI (.pbix)
+
+> GitHub cannot preview `.pbix` files.  
+> The dashboard can be downloaded and opened using **Power BI Desktop**.
 
 ---
 
-## 💼 Business Impact
+## Dashboard Screenshot
 
-This analysis helps stakeholders to:
-- Optimize pricing strategies
-- Focus on high-performing locations
-- Improve cuisine-based marketing
-- Understand customer engagement behavior
-- Support data-driven decision-making
+🔹 **Zomato Business Performance Dashboard Overview**
+
+  <img width="669" height="370" alt="Zomato Buisness Performance Dashboard" src="https://github.com/user-attachments/assets/e1424e5d-43e8-446c-838e-5a9843d897e1" />
+
 
 ---
 
-## 🚀 Future Enhancements
+## Key Insights
 
-- Time-series trend analysis (monthly / yearly)
+- High price category restaurants contribute the highest revenue share  
+- Italian cuisine generates the maximum sales  
+- BTM and Koramangala are the top-performing locations  
+- Higher ratings do not always guarantee higher customer votes  
+- Table booking and non-booking restaurants are almost evenly distributed  
+
+---
+
+## Business Value
+
+This project helps businesses and analysts to:
+
+- Optimize pricing strategies based on revenue contribution  
+- Focus expansion and marketing efforts on high-performing locations  
+- Identify popular cuisines for better menu planning  
+- Understand customer engagement beyond just ratings  
+- Support data-driven decision-making  
+
+---
+
+## Future Improvements
+
+- Time-based trend analysis (monthly / yearly sales)
 - Profitability analysis instead of revenue only
-- Customer segmentation (RFM / clustering)
-- Predictive analytics for ratings and sales
+- Customer segmentation using advanced techniques (RFM / clustering)
+- Predictive analysis for ratings and sales performance
 
 ---
 
-## 🏆 Skills Demonstrated
+## Project Summary
 
-- Data Cleaning & Preprocessing  
-- SQL for Business Analytics  
-- Power BI Dashboard Development  
-- Data Visualization & Storytelling  
-- Insight-driven Analysis  
+This project demonstrates a **complete data analytics workflow**, starting from raw data cleaning using Python, analytical querying using SQL, and ending with actionable business insights through an interactive Power BI dashboard.
 
 ---
 
-## 👤 Author
+## Contact
 
-**Vidanshu Rautela**  
-Aspiring Data Analyst | SQL | Python | Power BI  
+Created by **Vidanshu Rautela**
 
-📫 Open to data analyst roles and freelance opportunities
+Feel free to connect with me:  
+🔗 GitHub: https://github.com/Vidanshu24  
 
----
+⭐ If you found this project helpful, please consider starring the repository!
 
-⭐ *If you found this project insightful, feel free to star the repository!*
-
-
-## 📂 Project Structure
 
