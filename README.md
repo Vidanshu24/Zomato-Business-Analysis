@@ -1,4 +1,4 @@
-# 🍽️ Zomato Business Performance Analysis
+# Zomato Business Performance Analysis
 
 ## Project Overview
 
