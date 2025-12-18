@@ -30,7 +30,7 @@ This analysis simulates a **real business analytics use case**, where restaurant
 ## Tools Used
 
 - **Python (Pandas, NumPy)** – Data cleaning and preprocessing  
-- **SQL** – Analytical queries and aggregations  
+- **PostgreSQL(SQL)** – Analytical queries and aggregations  
 - **Power BI** – Dashboard creation and visualization  
 - **CSV Dataset** – Cleaned data used for analysis  
 
