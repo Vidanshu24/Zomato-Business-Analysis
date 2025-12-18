@@ -50,7 +50,7 @@ The following data cleaning steps were performed using Python (Pandas):
 - Prepared a clean dataset for SQL analysis and Power BI  
 
 📄 **Output File:** `Cleaned_data.csv`  
-📄 **Python File:** `Zomato_cleaning_analysis.py`
+📄 **Python File:** `Zomato cleaning analysis python.ipynb`
 
 ---
 
@@ -64,7 +64,7 @@ After cleaning the data, SQL was used to perform business-focused analysis such 
 - Rating bucket analysis (Excellent / Good / Average)  
 - Aggregated metrics for dashboard KPIs  
 
-📄 **SQL File:** `zomato_query_analysis.sql`
+📄 **SQL File:** `Zomato query analysis.sql`
 
 ---
 
@@ -93,7 +93,8 @@ The dashboard includes:
 
 🔹 **Zomato Business Performance Dashboard Overview**
 
-  <img width="669" height="370" alt="Zomato Buisness Performance Dashboard" src="https://github.com/user-attachments/assets/e1424e5d-43e8-446c-838e-5a9843d897e1" />
+  <img width="669" height="370" alt="Zomato Business Performance Dashboard" src="https://github.com/user-attachments/assets/fdefaafd-6889-449f-9521-ad7f37b42457" />
+
 
 
 ---
